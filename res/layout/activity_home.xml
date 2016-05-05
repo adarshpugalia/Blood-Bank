@@ -1,0 +1,88 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Home" >
+
+    <TextView
+        android:id="@+id/text_ask"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="@string/ask"
+        android:clickable="true"
+        android:onClick="askBlood"
+        android:gravity="center_vertical" />
+    
+    <TextView
+        android:id="@+id/divider1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/text_ask"
+        android:background="#d3d3d3" />
+    
+    <TextView
+        android:id="@+id/text_donate"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_below="@id/divider1"
+        android:text="@string/donate"
+        android:clickable="true"
+        android:onClick="donateBlood"
+        android:gravity="center_vertical" />
+    
+    <TextView
+        android:id="@+id/divider2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/text_donate"
+        android:background="#d3d3d3" />
+    
+    <TextView
+        android:id="@+id/text_profile"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_below="@id/divider2"
+        android:text="@string/profile"
+        android:clickable="true"
+        android:onClick="editProfile"
+        android:gravity="center_vertical" />
+    
+    <TextView
+        android:id="@+id/divider3"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/text_profile"
+        android:background="#d3d3d3" />
+    
+    <TextView
+        android:id="@+id/text_blood_banks"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_below="@id/divider3"
+        android:text="@string/blood_banks"
+        android:onClick="blood_banks"
+        android:gravity="center_vertical" />
+    
+    <TextView
+        android:id="@+id/divider4"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/text_blood_banks"
+        android:background="#d3d3d3" />
+    
+    <TextView
+        android:id="@+id/text_settings"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_below="@id/divider4"
+        android:text="@string/settings"
+        android:onClick="donateBlood"
+        android:gravity="center_vertical" />
+    
+    
+
+</RelativeLayout>

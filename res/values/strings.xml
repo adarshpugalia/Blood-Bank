@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- Application variables -->
+    <string name="app_name">Blood Bank</string>
+    
+    <!-- Shared Preference File Variables -->
+    <string name="pref_file">taadnairsshha.apps.preference_file</string>
+    
+    
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_log_in">Log In</string>
+    <string name="title_activity_home">Home</string>
+    
+    <string name="user_id">User ID</string>
+    <string name="user_name">User Name</string>
+    <string name="user_phone">Phone Number:</string>
+    <string name="user_password">Password: </string>
+    <string name="button_log_in">Log In</string>
+    <string name="title_activity_new_user">Register</string>
+    <string name="fill_details">Please fill in your details.</string>
+    <string name="hint_first_name">First Name</string>
+    <string name="hint_last_name">Last Name</string>
+    <string name="age">Age</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+
+    <string-array name="blood_groups">
+        <item>A +ve</item>
+        <item>A -ve</item>
+        <item>B +ve</item>
+        <item>B -ve</item>
+        <item>AB +ve</item>
+        <item>AB -ve</item>
+        <item>O +ve</item>
+        <item>O -ve</item>
+    </string-array>
+
+    <string name="blood_group">Blood Group: </string>
+    <string name="hint_primary_contact">Primary Contact No.</string>
+    <string name="hint_secondary_contact">Secondary Contact No.</string>
+    <string name="hint_address_street">Street</string>
+    <string name="hint_address_neighbourhood">Neighbourhood</string>
+    <string name="hint_city">City</string>
+    <string name="hint_address_state">State</string>
+    <string name="register">Register</string>
+    <string name="ask">Ask for Blood</string>
+    <string name="donate">Donate Blood</string>
+    <string name="profile">Edit Profile</string>
+    <string name="blood_banks">Blood Banks</string>
+    <string name="settings">Settings</string>
+    <string name="title_activity_verify_contact">Verify Contact</string>
+    <string name="text_text">Please enter your contact number</string>
+    <string name="verify">Verify</string>
+    <string name="sms_charges">*standard SMS sharges may apply</string>
+    <string name="title_activity_enter_details">Enter Details</string>
+    <string name="verified">Congrats! You are verified!</string>
+    <string name="details">Please enter your details to register yourself.</string>
+    <string name="name">Name: </string>
+    <string name="hint_full_name">Full Name</string>
+    <string name="hint_password">Password</string>
+    <string name="city">City: </string>
+    <string name="title_activity_ask_blood">Ask Blood</string>
+    <string name="blood_group_required">Blood Group Required:</string>
+    <string name="enter_address">Please enter your current location:</string>
+    <string name="secondary_contact">Contact No:</string>
+    <string name="request_blood">Request Blood</string>
+    <string name="title_activity_donate_blood">Donate Blood</string>
+    <string name="title_activity_edit_profile">Edit Profile</string>
+
+</resources>
